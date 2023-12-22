@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    opacity: 0.7;
+    
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-height: 50px;
+    background-color: white;
+   
+
+}
+.logoimg  img{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.logotle{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.logotle .logotitle{
+   text-align: center; 
+   display: flex;
+   
+   
+}
+.logotle .logotitle a{
+    text-decoration: none;
+    color: black;
+    display: block;
+     padding: 20px;
+}
+.logotle .logotitle a:hover{
+background-color: rgb(20, 208, 30);
+}
+.logotle .logotitle .logoic{
+    position: absolute;
+}
+ 
+
+
+
+
+.logosearch input{
+    border: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.logosearchbar .logosearch .search-icon{
+    height: 22px;
+    width: 22px;
+    transform: translate(-35px,8px);
+
+}
+
+
+.togglelogo{
+    height: 22px;
+    width: 22px;
+    
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.togglelogo:hover{
+background-color: rgb(223, 220, 220);
+}
+
+
+
+.slach-cart{
+    display: flex;
+}
+.logo-slach{
+    margin-left: 0;
+}
+.logo-slach-title .slachlog{
+    color: rgb(11, 11, 247);
+ 
+}
+.logo-slach-title a{  
+    text-decoration: none;
+    color: black;
+    margin-left: 3px;
+   
+}
+
+
+
+
+.logo-cart{
+    margin-left: 20px;
+}
+.logo-cart-title .cartlogo{
+    color: rgb(11, 11, 247);
+  
+}
+.logo-cart-title a{
+    margin-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+.logo-button{
+background-color: rgb(196, 249, 135);
+border-radius: 20px;
+
+}
+.logo2-button .btnlogo{
+    border: none;
+    background-color: rgb(39, 187, 17);
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+}
+.logo2-button .bttnlogo{
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+
+
+.cources-available{
+    display: flex;
+    padding-top: 3rem;
+    background-color: black;
+    color: white;
+    overflow-x: auto;
+    z-index: 99;
+}
+.cources-available::-webkit-scrollbar{
+    width: 0;
+}
+.cources-available .box{
+    margin-top: 15px;
+    padding-left: 20px;
+    
+}
+.arrow{
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+    top: 63px;
+    right: 0px;
+    text-align: center;
+}
+.arrow .arr{
+    transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+.home-page{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    text-align: center;
+    
+     
+}
+.home-page .home-page-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.home-page .home-page-title1{
+    color: rgba(209, 193, 23, 0.972);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.home-page .home-page-title-input input{
+    border: none;
+    padding: 10px 110px 10px 110px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 27px;
+    margin-left: 35px;
+}
+.home-page .home-page-title-input .home-page-icon{
+    color: white;
+    transform: translate(-60px,14px);
+    font-size: 19px;
+    background-color: rgb(39, 187, 17);
+    padding: 9px 30px 9px 30px;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+.home-page-title-a {
+    margin-top: 30px;
+}
+.home-page-title-a a{
+    color: white;
+    font-weight: bold;
+    
+}
+.home-page-image img{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 350px;
+    left: 900px;
+}
